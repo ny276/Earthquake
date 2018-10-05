@@ -12,6 +12,8 @@
 		34DDD78F216726390017E127 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34DDD78D216726390017E127 /* Main.storyboard */; };
 		34DDD7912167263A0017E127 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34DDD7902167263A0017E127 /* Assets.xcassets */; };
 		34DDD7942167263A0017E127 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34DDD7922167263A0017E127 /* LaunchScreen.storyboard */; };
+		34DDD79C2167330D0017E127 /* Shelter in Resources */ = {isa = PBXBuildFile; fileRef = 34DDD79B2167330D0017E127 /* Shelter */; };
+		34DDD79E216734800017E127 /* ShelterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DDD79D216734800017E127 /* ShelterTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		34DDD7902167263A0017E127 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34DDD7932167263A0017E127 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34DDD7952167263A0017E127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34DDD79B2167330D0017E127 /* Shelter */ = {isa = PBXFileReference; lastKnownFileType = text; path = Shelter; sourceTree = "<group>"; };
+		34DDD79D216734800017E127 /* ShelterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,11 @@
 				34DDD789216726390017E127 /* AppDelegate.swift */,
 				34DDD78B216726390017E127 /* ViewController.swift */,
 				34DDD78D216726390017E127 /* Main.storyboard */,
+				34DDD79D216734800017E127 /* ShelterTableViewController.swift */,
 				34DDD7902167263A0017E127 /* Assets.xcassets */,
 				34DDD7922167263A0017E127 /* LaunchScreen.storyboard */,
 				34DDD7952167263A0017E127 /* Info.plist */,
+				34DDD79B2167330D0017E127 /* Shelter */,
 			);
 			path = Earthquake;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			files = (
 				34DDD7942167263A0017E127 /* LaunchScreen.storyboard in Resources */,
 				34DDD7912167263A0017E127 /* Assets.xcassets in Resources */,
+				34DDD79C2167330D0017E127 /* Shelter in Resources */,
 				34DDD78F216726390017E127 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +144,7 @@
 			files = (
 				34DDD78C216726390017E127 /* ViewController.swift in Sources */,
 				34DDD78A216726390017E127 /* AppDelegate.swift in Sources */,
+				34DDD79E216734800017E127 /* ShelterTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
